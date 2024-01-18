@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.list-users {
+  padding:0;
+  list-style: none;
+}
+
+.list-users li {
+  position: relative;
+  padding: 5px 3px;
+  background: #1a1a1a;;
+  margin-bottom: 5px;
+  text-align:center;
+  background-size: 100% 100%;
+  z-index: 1;
+
+  border-radius: 8px;
+}
+
+.app {
+  display: flex;
+}
+
+.img-user{
+  height: 250px;
+}
+
+/* .list-users li:hover {
+  border: 2px solid #ADCEE9;
+}
+
+.list-users li:before {
+  content: "";
+  position:absolute;
+  width: 0;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(to left, #E2F0FA 0%, #FFF, #E2F0FA);
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.list-users li:hover:before {
+  width: 100%;
+  opacity: 1;
+}     */
